@@ -4,6 +4,42 @@ This is a sample repository used as an experiment to improve the segmentation ap
 
 From here, future usage of the model itself could add a configurable parameter to pre-process bee input data to remove the background before being fed into the model for better accuracy.
 
+## Examples
+
+<div style="display: flex;">
+  <figure style="flex: 50%; text-align: center;">
+    <img src="./photos/img2.jpeg" alt="Before Image" style="max-width: 100%; padding: 5px;">
+    <figcaption>Before</figcaption>
+  </figure>
+  <figure style="flex: 50%; text-align: center;">
+    <img src="./results/img2.png" alt="After Image" style="max-width: 100%; padding: 5px;">
+    <figcaption>After</figcaption>
+  </figure>
+</div>
+
+<div style="display: flex;">
+  <figure style="flex: 50%; text-align: center;">
+    <img src="./photos/img1.jpeg" alt="Before Image" style="max-width: 100%; padding: 5px;">
+    <figcaption>Before</figcaption>
+  </figure>
+  <figure style="flex: 50%; text-align: center;">
+    <img src="./results/img1.png" alt="After Image" style="max-width: 100%; padding: 5px;">
+    <figcaption>After</figcaption>
+  </figure>
+</div>
+
+<div style="display: flex;">
+  <figure style="flex: 50%; text-align: center;">
+    <img src="./photos/img4.jpeg" alt="Before Image" style="max-width: 100%; padding: 5px;">
+    <figcaption>Before</figcaption>
+  </figure>
+  <figure style="flex: 50%; text-align: center;">
+    <img src="./results/img4.png" alt="After Image" style="max-width: 100%; padding: 5px;">
+    <figcaption>After</figcaption>
+  </figure>
+</div>
+
+
 ## Local Development Setup
 
 1. Clone the repository
