@@ -1,6 +1,8 @@
-# Bee Background Removal
+# Bee Background Removal Utility
 
 This is a sample repository used as an experiment to improve the segmentation applied to the bees in the [Big Bee Project](https://big-bee.net/). The idea is that background removal can be applied as a pre-processing step for image input. This would allow the model to be trained on images with purely black backgrounds, which have shown to have higher accuracy. 
+
+From here, future usage of the model itself could add a configurable parameter to pre-process bee input data to remove the background before being fed into the model for better accuracy.
 
 ## Local Development Setup
 
