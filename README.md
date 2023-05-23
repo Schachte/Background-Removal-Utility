@@ -6,38 +6,11 @@ From here, future usage of the model itself could add a configurable parameter t
 
 ## Examples
 
-<div style="display: flex;">
-  <figure style="flex: 50%; text-align: center;">
-    <img src="./photos/img2.jpeg" alt="Before Image" style="max-width: 40%; padding: 5px;">
-    <figcaption>Before</figcaption>
-  </figure>
-  <figure style="flex: 50%; text-align: center;">
-    <img src="./results/img2.png" alt="After Image" style="max-width: 40%; padding: 5px;">
-    <figcaption>After</figcaption>
-  </figure>
-</div>
-
-<div style="display: flex;">
-  <figure style="flex: 50%; text-align: center;">
-    <img src="./photos/img1.jpeg" alt="Before Image" style="max-width: 40%; padding: 5px;">
-    <figcaption>Before</figcaption>
-  </figure>
-  <figure style="flex: 50%; text-align: center;">
-    <img src="./results/img1.png" alt="After Image" style="max-width: 40%; padding: 5px;">
-    <figcaption>After</figcaption>
-  </figure>
-</div>
-
-<div style="display: flex;">
-  <figure style="flex: 50%; text-align: center;">
-    <img src="./photos/img4.jpeg" alt="Before Image" style="max-width: 40%; padding: 5px;">
-    <figcaption>Before</figcaption>
-  </figure>
-  <figure style="flex: 50%; text-align: center;">
-    <img src="./results/img4.png" alt="After Image" style="max-width: 40%; padding: 5px;">
-    <figcaption>After</figcaption>
-  </figure>
-</div>
+Before | After
+:-------------------------:|:-------------------------:
+![](./photos/img2.jpeg)  |  ![](./results/img2.png)
+![](./photos/img1.jpeg)  |  ![](./results/img1.png)
+![](./photos/img4.jpeg)  |  ![](./results/img4.png)
 
 
 ## Local Development Setup
