@@ -4,6 +4,9 @@ This is a sample repository used as an experiment to improve the segmentation ap
 
 From here, future usage of the model itself could add a configurable parameter to pre-process bee input data to remove the background before being fed into the model for better accuracy.
 
+# Google Colab
+Check out https://pypi.org/project/carvekit-colab/ for Google Colab notebook using Carvekit. Carvekit is the underlying model.
+
 ## Examples
 
 Before | After
@@ -16,9 +19,11 @@ Before | After
 ## Local Development Setup
 
 1. Clone the repository
-2. Setup virtual environment - `virtualenv env`
-3. Active the environment - `source env/bin/activate`
-4. Install dependencies - `pip install -r requirements.txt`
+```
+	python3.10 -m venv myenv
+	source myenv/bin/activate
+	pip3 install carvekit
+```
 
 ## Option 1: Commercial
 
@@ -54,3 +59,6 @@ print(f"Removing background from all {input_extension} files")
 background_removal(input_directory, output_directory, input_extension)
 print("Background removal complete")
 ```
+
+
+
