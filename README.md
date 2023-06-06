@@ -17,7 +17,7 @@ Before | After
 
 1. Clone the repository
 2. Setup virtual environment - `virtualenv env`
-3. Active the environment - `source env/bin.activate`
+3. Active the environment - `source env/bin/activate`
 4. Install dependencies - `pip install -r requirements.txt`
 
 ## Option 1: Commercial
